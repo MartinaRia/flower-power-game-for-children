@@ -1,0 +1,57 @@
+body{
+  background: #000000d1;
+  /*font-family: 'Patrick Hand', cursive;*/
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Oswald', sans-serif;  */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.punteggio{
+  width: 80%
+}
+.punteggio span {
+  width: 49.5%;
+  text-align: center;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+
+.tablecontainer{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #aeaeae;
+}
+
+
+.square {
+  width: calc(100% / 8);
+  height: calc(100% / 8);
+  border-radius: 1px;
+  border: solid  2px  #000000d1;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.square:active{
+  box-shadow: inset 2px 2px 4px 3px #0000005c;
+}
+
+.redWannabe{
+  /* background-color: red; */
+}
